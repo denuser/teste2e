@@ -1,0 +1,32 @@
+{
+  "name": "pupper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"**/*.{js,jsx}\" --fix",
+    "format": "prettier --write \"./*.{js,jsx,scss}\"",
+    "test": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 npm i --save-dev puppeteer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.6.1",
+    "puppeteer": "^1.4.0",
+    "puppeteer-to-istanbul": "^1.2.2",
+    "testcafe": "^0.20.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.5",
+    "es6-promise": "^4.2.4",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "isomorphic-fetch": "^2.2.1",
+    "prettier": "^1.13.4"
+  }
+}

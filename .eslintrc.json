@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "airbnb",
+        "prettier",
+        "plugin:testcafe/recommended"
+    ],
+    "plugins": [
+        "testcafe"
+    ],
+    "rules": {
+        "newline-per-chained-call": [
+            "error"
+        ]
+    }
+}
